@@ -18,6 +18,6 @@ if (fullName == null || fullName.isEmpty()) {
         Nhập họ và tên: <input type="text" name="fullName" />
         <input type="submit" value="Gửi thông tin" />
     </form>
-    <p>Xin chào, <%= fullName %>!</p>
+    <p>Xin chào, <%= fullName.trim() %>!</p>
 </body>
 </html>
